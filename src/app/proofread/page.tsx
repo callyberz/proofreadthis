@@ -10,7 +10,7 @@ export type Tone = {
   description: string
 }
 
-export const tones: Tone[] = [
+const tones: Tone[] = [
   {
     name: 'Professional',
     description: 'Formal, clear, and concise language',
