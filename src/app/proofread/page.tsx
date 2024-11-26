@@ -1,9 +1,8 @@
-// app/proofread/page.tsx
 'use client'
 
 import { useState } from 'react'
 import { Loader2, CheckCircle2, Check, Copy, RefreshCcw } from 'lucide-react'
-import { proofreadText, proofreadTextHuggingFace } from './action'
+import { proofreadTextHuggingFace } from './action'
 import { Button } from '@/components/ui/button'
 
 export type Tone = {
